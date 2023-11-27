@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+hr {
+    color: lightblue;
+}
+
+.white-text{
+    color: white;
+}
+
+.nav--logo {
+    max-width: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card{
+    display: flex;
+    padding-left: 10px;
+    margin: 20px;
+    
+}
+.card--img{
+    max-width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+.card--location-pin {
+    max-width: 8px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+a{
+    color: grey;
+}
+.card--dates {
+    font-weight: bolder;
+    font-size: 14px;
+}
+.card--div--content{
+    align-self: center;
+}
